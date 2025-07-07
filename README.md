@@ -2,6 +2,8 @@
 
 A simple HTTP server implementation using Go's `net/http` package. This project demonstrates how to create a basic web server with multiple endpoints that can serve both HTML and JSON responses.
 
+You can switch to different branches for more complex and structured projects with http
+
 ## Features
 
 - Simple HTTP server using Go's standard library
