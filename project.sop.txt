@@ -1,0 +1,7 @@
+Create a basic HTTP server using the `net/http` package. Implement routes for serving static HTML and JSON responses.
+
+1. create simple project
+2 use net/http package
+3. get more details of http package (client and server both)
+4. setup 2-3 endpoints
+5. finalize the project
