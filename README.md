@@ -19,15 +19,15 @@ You can switch to different branches for more complex and structured projects wi
 
 ```bash
 # Clone the repository
-git clone [repository-url]
-cd [repository-name]
+git clone https://github.com/thetestcoder/go-http.git
+cd go-http
 ```
 
 ## Usage
 
 ```bash
 # Run the server
-go run main.go
+go run ./cmd/basic-http/*
 ```
 
 Alternatively, you can use the provided Makefile:
@@ -40,16 +40,6 @@ The server will start on port 8888. You can access the following endpoints:
 
 - `http://localhost:8888/` - Home page
 - `http://localhost:8888/about` - About page
-
-## Project Structure
-
-```
-.
-├── main.go        # Main server implementation
-├── Makefile       # Build automation
-├── README.md      # Project documentation
-└── hint.md        # Additional hints and tips
-```
 
 ## License
 
