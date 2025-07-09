@@ -1,8 +1,8 @@
 .PHONY: build test lint clean run
 
 # Build variables
-BINARY_NAME=task-manager
-MAIN_FILE=cmd/task-manager/main.go
+BINARY_NAME=basic-http
+MAIN_FILE=cmd/basic-http/main.go
 
 # Go commands
 GOCMD=go
@@ -34,8 +34,5 @@ run: build
 
 deps:
 	$(GOMOD) download
-	$(GOGET) github.com/rs/zerolog
-	$(GOGET) github.com/fatih/color
-	$(GOGET) github.com/stretchr/testify
 
 .DEFAULT_GOAL := build
